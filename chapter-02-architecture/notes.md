@@ -22,6 +22,9 @@ Sentinel itself is installed *into* a Log Analytics workspace — so most of you
 There are three broad implementation patterns to choose from.
 
 ### 1. Single-Tenant, Single Workspace
+
+<img width="939" height="610" alt="image" src="https://github.com/user-attachments/assets/ca3f190d-84fb-4fea-a3d7-7de7db6bf6b8" />
+
 One central Sentinel workspace ingests logs from every resource across every region in the tenant.
 
 | Pros | Cons |
@@ -33,6 +36,9 @@ One central Sentinel workspace ingests logs from every resource across every reg
 | Microsoft Sentinel RBAC for service access | |
 
 ### 2. Single-Tenant, Regional Workspaces
+
+<img width="880" height="360" alt="image" src="https://github.com/user-attachments/assets/0764e574-fda5-45ba-8432-82d5479373a6" />
+
 Multiple Sentinel/Log Analytics workspaces, one (or more) per region.
 
 | Pros | Cons |
@@ -51,6 +57,9 @@ TableName
 ```
 
 ### 3. Multiple Tenants
+
+<img width="1342" height="596" alt="image" src="https://github.com/user-attachments/assets/61570561-4980-44e4-ba0b-5f21560a09b4" />
+
 If you need to manage a Sentinel workspace that lives outside your own tenant — common for MSSPs — you implement this using **Azure Lighthouse**, which grants cross-tenant access. Within each tenant, the regional-vs-single-workspace decision still applies.
 
 ### Sharing a Workspace with Microsoft Defender for Cloud
@@ -84,7 +93,13 @@ Once created, Sentinel's left-hand navigation is organized into four areas: **Ge
 If your responsibilities span multiple workspaces or tenants, you have two tools available:
 
 - **Microsoft Sentinel Workspace Manager** — lets you designate a central workspace that pushes content (analytics rules, workbooks, etc.) out to member workspaces at scale, across one or more tenants. Enabled under Configuration settings.
+  
+<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/99ddc5e4-9369-4c37-a875-3d4e040ffd99" />
+
 - **Azure Lighthouse** — grants delegated access into another tenant entirely. Once onboarded, you switch into those subscriptions using the directory + subscription selector in the Azure portal. This is especially useful for service providers managing multiple customer environments without juggling separate logins.
+
+<img width="980" height="473" alt="image" src="https://github.com/user-attachments/assets/8b5a09a6-e681-46f3-b8e1-ccb4758d1ae1" />
+
 
 ## Managing Workspace Settings
 
@@ -92,6 +107,8 @@ Sentinel settings live in two places: within Sentinel itself (Settings blade —
 
 ### Log Retention
 Retention is configurable from **30 to 730 days (2 years)** at the workspace level, unless you're on the legacy Free tier. To adjust it: go to Workspace Settings in Sentinel → this drops you into the Log Analytics portal → **Usage and estimated costs** → **Retention** button at the top.
+
+<img width="1920" height="880" alt="image" src="https://github.com/user-attachments/assets/8ff403a3-81cc-4970-8a9f-158ce42ebaa1" />
 
 ## Configuring Logs: Plans and Tiers
 
@@ -117,6 +134,8 @@ This is where cost planning gets real. You need to think in terms of two data st
 
 ### Managing Tables in the Defender Portal
 For workspaces connected to Defender, table tiering and retention are managed from the Defender portal's table management experience (**Microsoft Sentinel → Configuration → Tables**). A few things to know:
+
+<img width="950" height="497" alt="image" src="https://github.com/user-attachments/assets/551804b5-de34-4553-9329-540c529d871e" />
 
 - If you have Basic-tier logs, you must convert them to Analytics tier via the Log Analytics Tables experience before you can manage tiering from Defender.
 - Selecting a table opens a details panel showing description, tier, and retention — from there, **Manage table** lets you adjust Analytics retention (30 days–2 years), Total retention (up to 12 years), or switch tiers entirely.
