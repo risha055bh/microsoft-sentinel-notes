@@ -385,6 +385,4 @@ Improve
 
 For a SOC team, combining **Content Hub + GitHub repository management + validation + controlled deployment** provides a structured approach for maintaining Microsoft Sentinel content across environments.
 
-Next is pending 
-
 > **Source:** Microsoft Sentinel Content Management documentation provided for this note. The source specifically covers Content Hub, solutions, repository prerequisites, GitHub/Azure DevOps connections, content types, and deployment workflows.
