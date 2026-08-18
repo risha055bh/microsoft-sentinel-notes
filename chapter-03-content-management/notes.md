@@ -241,7 +241,7 @@ The content stored in the repository can then be deployed to the connected Micro
 The overall deployment process can be represented as:
 
 ```text
-Developer / SOC Engineer
+Developer / Security Engineer
           |
           v
       GitHub Repo
