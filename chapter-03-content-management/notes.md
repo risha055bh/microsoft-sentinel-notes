@@ -164,6 +164,7 @@ Microsoft Sentinel
               |
               └── Repositories
 ```
+<img width="1343" height="746" alt="image" src="https://github.com/user-attachments/assets/6449b46c-9cc8-4cf6-9738-abbe6b807a51" />
 
 Select **Add new**.
 
@@ -174,6 +175,8 @@ Provide:
 * Source control type
 
 Select **GitHub** and then select **Authorize**.
+
+<img width="1101" height="342" alt="image" src="https://github.com/user-attachments/assets/e52065aa-7cc8-4e4c-b3cd-5d27ce51828c" />
 
 ## Step 3: Authorize GitHub
 
@@ -188,6 +191,8 @@ After authorization:
 3. Install the **Azure-Sentinel app** on the repository if prompted.
 4. Select the required repository.
 5. Select the branch to connect to Sentinel.
+
+<img width="1817" height="902" alt="image" src="https://github.com/user-attachments/assets/9d4edc63-4527-4ec6-8f56-69afc9be2d33" />
 
 Example:
 
@@ -379,5 +384,7 @@ Improve
 ```
 
 For a SOC team, combining **Content Hub + GitHub repository management + validation + controlled deployment** provides a structured approach for maintaining Microsoft Sentinel content across environments.
+
+Next is pending 
 
 > **Source:** Microsoft Sentinel Content Management documentation provided for this note. The source specifically covers Content Hub, solutions, repository prerequisites, GitHub/Azure DevOps connections, content types, and deployment workflows.
