@@ -49,9 +49,9 @@ Sentinel gives you three entry points, depending on scope:
 
 > In the Defender portal, incident-trigger rules apply to both Sentinel and Defender XDR incidents. Alert-trigger rules apply to Sentinel alerts only.
 
-**2. Conditions** — govern when actions run, using `AND` / `OR` / `NOT` / `CONTAINS` logic based on incident/entity attributes.
+**2. Conditions** - govern when actions run, using `AND` / `OR` / `NOT` / `CONTAINS` logic based on incident/entity attributes.
 
-**3. Actions** — what the rule does:
+**3. Actions** - what the rule does:
 - Change incident status (with closing reason + comment)
 - Change severity
 - Assign an owner
