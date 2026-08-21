@@ -136,6 +136,8 @@ To onboard and use Microsoft Sentinel in the Defender portal, you need:
 
 Once connected, the Home page banner confirms your unified SIEM + XDR setup is ready, and new sections appear with Sentinel metrics (data connectors, automation rules, etc.).
 
+<img width="1856" height="917" alt="image" src="https://github.com/user-attachments/assets/f8444c4e-e07b-4041-99a4-e5ca28dbb2b7" />
+
 ### Offboard Microsoft Sentinel
 
 Only one workspace can be connected to the Defender portal at a time. To switch workspaces, disconnect the current one first.
