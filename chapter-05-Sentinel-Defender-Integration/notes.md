@@ -150,6 +150,7 @@ Only one workspace can be connected to the Defender portal at a time. To switch 
 
 Once disconnected, the *Microsoft Sentinel* section disappears from the Defender portal's left navigation, and Sentinel data no longer appears on the Overview page. To connect a different workspace, go back to the **Workspaces** page and select **Connect a workspace**.
 
+NEXT STEP FOR THIS IS PENDING 
 ---
 
 ## Summary
