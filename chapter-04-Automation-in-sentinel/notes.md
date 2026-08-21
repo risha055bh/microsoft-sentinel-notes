@@ -1,6 +1,6 @@
 # Microsoft Sentinel Automation: Automation Rules & Playbooks
 
-Microsoft Sentinel isn't just a SIEM — it's also a **SOAR** (Security Orchestration, Automation, and Response) platform. Its automation capabilities let SOC teams eliminate repetitive, predictable triage and response work, freeing analysts to focus on real threats.
+Microsoft Sentinel isn't just a SIEM-it's also a **SOAR** (Security Orchestration, Automation, and Response) platform. Its automation capabilities let SOC teams eliminate repetitive, predictable triage and response work, freeing analysts to focus on real threats.
 
 This post covers the two core building blocks of automation in Sentinel: **Automation Rules** and **Playbooks**, and how to create/manage them across the Azure and Defender portals.
 
@@ -49,9 +49,9 @@ Sentinel gives you three entry points, depending on scope:
 
 > In the Defender portal, incident-trigger rules apply to both Sentinel and Defender XDR incidents. Alert-trigger rules apply to Sentinel alerts only.
 
-**2. Conditions** — govern when actions run, using `AND` / `OR` / `NOT` / `CONTAINS` logic based on incident/entity attributes.
+**2. Conditions** - govern when actions run, using `AND` / `OR` / `NOT` / `CONTAINS` logic based on incident/entity attributes.
 
-**3. Actions** — what the rule does:
+**3. Actions** - what the rule does:
 - Change incident status (with closing reason + comment)
 - Change severity
 - Assign an owner
