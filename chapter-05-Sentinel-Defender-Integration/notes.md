@@ -55,6 +55,14 @@ There are two ways to integrate Microsoft Sentinel with Microsoft Defender XDR s
 - SecOps teams analyze and respond to threats identified in Sentinel and Defender XDR
 - Microsoft Sentinel supports **multicloud environments** and integrates with third-party apps and partners
 
+### Azure portal 
+
+<img width="951" height="556" alt="image" src="https://github.com/user-attachments/assets/a08dcc02-26e0-4ff7-a3ee-74ffdf7c7e8a" />
+
+### Defender Portal 
+
+<img width="951" height="548" alt="image" src="https://github.com/user-attachments/assets/6f59dfb0-527e-4c9f-893a-31305188c7de" />
+
 ---
 
 ## Capability Differences Between Azure and Defender Portals
