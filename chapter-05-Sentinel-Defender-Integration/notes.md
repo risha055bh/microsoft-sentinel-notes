@@ -151,7 +151,103 @@ Only one workspace can be connected to the Defender portal at a time. To switch 
 
 Once disconnected, the *Microsoft Sentinel* section disappears from the Defender portal's left navigation, and Sentinel data no longer appears on the Overview page. To connect a different workspace, go back to the **Workspaces** page and select **Connect a workspace**.
 
-NEXT STEP FOR THIS IS PENDING 
+# Exercise — Connect Microsoft Sentinel to Microsoft Defender XDR
+
+![Platform](https://img.shields.io/badge/Platform-Microsoft%20Sentinel%20%7C%20Defender%20XDR-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Type](https://img.shields.io/badge/Type-Hands--On%20Exercise-blue?style=flat-square)
+![Duration](https://img.shields.io/badge/Duration-25%20min-green?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
+
+> **TL;DR** — A guided, simulation-based exercise covering how to onboard both a new and an existing Microsoft Sentinel workspace to Microsoft Defender XDR, and an overview of what Sentinel capabilities become available inside the unified Defender portal once connected.
+
+---
+## Table of Contents
+
+- [Scenario](#scenario)
+- [Objectives](#objectives)
+- [Environment Note](#environment-note)
+- [Task 1 — Connect a New Sentinel Workspace to Defender XDR](#task-1--connect-a-new-sentinel-workspace-to-defender-xdr)
+- [Task 2 — Connect an Existing Sentinel Workspace to Defender XDR](#task-2--connect-an-existing-sentinel-workspace-to-defender-xdr)
+- [Exploring Sentinel Capabilities in the Defender Portal](#exploring-sentinel-capabilities-in-the-defender-portal)
+- [Key Takeaways](#key-takeaways)
+- [References](#references)
+
+---
+
+## Scenario
+
+You're a Security Operations Analyst working at a company that has deployed both **Microsoft Defender XDR** and **Microsoft Sentinel**. To bring both platforms into a single pane of glass, you need to prepare Microsoft Sentinel for use within the Microsoft Defender portal by connecting it to Defender XDR.
+
+---
+
+## Objectives
+
+In this exercise, Interactive Guides were used to simulate the following tasks:
+
+- Connect a **new** Microsoft Sentinel workspace to Microsoft Defender XDR
+- Connect an **existing** Microsoft Sentinel workspace to Microsoft Defender XDR
+- Explore the Microsoft Sentinel capabilities available within the Microsoft Defender XDR portal
+
+---
+
+## Environment Note
+
+> ⚠️ The environment for this exercise is a **simulation** generated from the actual product. As a limited simulation:
+> - Some links on the page may not be enabled
+> - Text-based inputs outside the expected script may not be supported
+> - A pop-up may appear stating: *"This feature isn't available within the simulation."* — select **OK** and continue with the exercise steps
+
+---
+
+## Task 1 — Connect a New Sentinel Workspace to Defender XDR
+
+**Duration:** ~10 minutes
+
+In this Interactive Guide, a new Microsoft Sentinel workspace is onboarded to Microsoft Defender XDR. This walks through the initial connection flow an analyst would follow the first time Sentinel is linked to the unified Defender portal for a workspace that has not previously been onboarded.
+
+---
+
+## Task 2 — Connect an Existing Sentinel Workspace to Defender XDR
+
+**Duration:** ~10 minutes
+
+In this Interactive Guide, an **already-existing** Microsoft Sentinel workspace is connected to Microsoft Defender XDR. This covers the onboarding flow for organizations that already have Sentinel deployed and are integrating it into Defender XDR after the fact, rather than starting from a fresh workspace.
+
+---
+
+## Exploring Sentinel Capabilities in the Defender Portal
+
+After completing both onboarding simulations, Sentinel capabilities become available directly inside the Microsoft Defender XDR portal, allowing incidents, hunting, and analytics from Sentinel to be reviewed alongside Defender XDR's native detections in a single interface.
+
+> **Note:** Since this is a simulation, exploration of Sentinel capabilities within the Defender portal is limited. In a real production environment, the full set of Microsoft Sentinel capabilities — including analytics rules, hunting queries, workbooks, and incident management — would be explorable directly from within the Defender portal.
+
+---
+
+## Key Takeaways
+
+| # | Observation | Why It Matters |
+|---|-------------|-----------------|
+| 1 | **Two distinct onboarding paths exist** | Connecting a brand-new workspace vs. connecting an already-deployed workspace follow different flows — both are relevant depending on an organization's existing maturity with Sentinel. |
+| 2 | **Onboarding unifies SecOps into a single portal** | Once connected, Sentinel data and capabilities surface directly inside Defender XDR, reducing the need for analysts to context-switch between two portals. |
+| 3 | **Some Sentinel-only capabilities may behave differently post-onboarding** | As covered in related notes on capability differences between the Azure and Defender portals, certain Sentinel features remain Azure-portal-only even after onboarding — this exercise is the connection step, not the full behavioral picture. |
+| 4 | **Simulation-based learning mirrors real portal flows** | Despite being a simulation, the interactive guide closely mirrors the real Azure/Defender onboarding experience, making it a reasonable proxy for hands-on familiarity. |
+
+---
+
+## References
+
+- [Connect Microsoft Sentinel to Microsoft Defender XDR](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration)
+- [Microsoft Sentinel Documentation](https://learn.microsoft.com/en-us/azure/sentinel/overview)
+- [Microsoft Defender XDR Documentation](https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-defender)
+- [Microsoft Sentinel in the Microsoft Defender Portal](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-defender-portal)
+
+---
+
+<div align="center">
+
+**Category:** SIEM / XDR Integration &nbsp;|&nbsp; **Platform:** Microsoft Sentinel & Defender XDR &nbsp;|&nbsp; **Status:** Completed
+
+</div>
 ---
 
 ## Summary
