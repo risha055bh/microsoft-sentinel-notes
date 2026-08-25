@@ -89,12 +89,17 @@ Once configured, AMA on the Linux forwarder:
 1. In the **Microsoft Sentinel** portal, select **Data connectors**.
 2. Search for and select **Common Event Format (CEF) via AMA**.
 3. Select **Open connector page** on the details pane.
-4. Under **Configuration**, select **+ Create data collection rule**.
-5. On the **Basic** tab, enter a name for the data collection rule, then select the subscription and resource group.
-6. On the **Resources** tab, select the Linux machine designated as the log forwarder.
-7. On the **Collect** tab, confirm the CEF facility and log level settings.
-8. Select **Review + create**, then **Create**. AMA is automatically installed on the Linux forwarder if it isn't already present.
-9. Configure each network appliance to forward its syslog events to the Linux forwarder on **UDP or TCP port 514**.
+
+<img width="1683" height="849" alt="image" src="https://github.com/user-attachments/assets/daf46cd3-1396-4b5d-96b8-39578af94330" />
+
+5. Under **Configuration**, select **+ Create data collection rule**.
+7. On the **Basic** tab, enter a name for the data collection rule, then select the subscription and resource group.
+8. On the **Resources** tab, select the Linux machine designated as the log forwarder.
+9. On the **Collect** tab, confirm the CEF facility and log level settings.
+10. Select **Review + create**, then **Create**. AMA is automatically installed on the Linux forwarder if it isn't already present.
+11. Configure each network appliance to forward its syslog events to the Linux forwarder on **UDP or TCP port 514**.
+
+<img width="1302" height="679" alt="image" src="https://github.com/user-attachments/assets/053202cf-a552-4c7f-8c4a-9f0995c376d8" />
 
 ### Forwarding Both Plain Syslog and CEF from the Same Machine
 
