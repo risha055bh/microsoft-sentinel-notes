@@ -182,13 +182,27 @@ There are two onboarding paths, depending on where an organization currently sta
 
 This flow covers onboarding a **brand-new** Sentinel workspace directly into Defender XDR. It's the path used when Sentinel hasn't previously existed in the environment, or the workspace being connected has never been onboarded before.
 
+<img width="1883" height="865" alt="image" src="https://github.com/user-attachments/assets/4be250b0-2909-44b7-9fa2-cf4d9abf47b9" />
+
+
 **Approximate time:** 10 minutes
 
 ---
 
 ## Task 2: Connect an Existing Sentinel Workspace to Defender XDR
 
+<img width="1881" height="660" alt="image" src="https://github.com/user-attachments/assets/5a3bf519-3b32-45e5-9f7f-27b52d48d63a" />
+
+<img width="1805" height="830" alt="image" src="https://github.com/user-attachments/assets/eda5fe65-f85c-4a89-89d6-84351b706afa" />
+
+<img width="1883" height="872" alt="image" src="https://github.com/user-attachments/assets/9fd96554-4fa1-4504-847c-10f1acbd4828" />
+
+<img width="1085" height="570" alt="image" src="https://github.com/user-attachments/assets/a0b2b711-6bf9-4284-9f8f-edf93976c2ba" />
+
 This flow covers connecting a Sentinel workspace that is **already deployed and in use** — the more common real-world scenario, since most organizations adopt Sentinel before later integrating it with Defender XDR.
+
+<img width="1862" height="896" alt="image" src="https://github.com/user-attachments/assets/3e1ab7bf-e4c0-43d2-b340-691a03a4e891" />
+
 
 **Approximate time:** 10 minutes
 
