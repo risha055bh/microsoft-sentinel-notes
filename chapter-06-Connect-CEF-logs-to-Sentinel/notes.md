@@ -28,7 +28,13 @@ By the end of this module, CEF log data can be sent to a Microsoft Sentinel work
 
 ## Planning for the CEF Connector
 
+<img width="1233" height="621" alt="image" src="https://github.com/user-attachments/assets/cf02df39-cae2-4aea-82be-d0fa4a2cc9fd" />
+
+
 The **CEF via AMA** connector uses the **Azure Monitor Agent (AMA)** on a dedicated Linux log forwarder to bridge communication between network appliances and Microsoft Sentinel. Many vendor-specific Sentinel data connectors use CEF via AMA as their underlying collection mechanism.
+
+<img width="1232" height="618" alt="image" src="https://github.com/user-attachments/assets/2ac94ea0-6a4d-41b2-a028-50a56e0033c3" />
+
 
 ### Deployment Topology
 
