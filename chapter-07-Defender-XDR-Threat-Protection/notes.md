@@ -23,7 +23,7 @@ Microsoft Defender XDR is an integrated threat protection suite with solutions t
 
 ### Detection of Threat
 
-**Scenario:** Microsoft Defender for Endpoint (MDE) detects a malicious payload — regardless of where it came from (personal email, USB drive, etc.).
+**Scenario:** Microsoft Defender for Endpoint (MDE) detects a malicious payload regardless of where it came from (personal email, USB drive, etc.).
 
 1. The victim receives a malicious email on a personal account *not* protected by Microsoft Defender for Office 365 (MDO), or plugs in an infected USB drive, and opens the attachment.
 2. The malware infects the computer — the user is unaware an attack occurred.
@@ -33,13 +33,13 @@ Microsoft Defender XDR is an integrated threat protection suite with solutions t
 
 ### Remediation
 
-- MDE remediates the threat — via automated remediation, analyst-approved automated remediation, or manual analyst investigation.
+- MDE remediates the threat via automated remediation, analyst-approved automated remediation, or manual analyst investigation.
 - MDE also contributes threat intelligence about the attack to **Microsoft Threat Intelligence**, helping remediate the same threat across the broader MDE customer base.
 
 ### Share Intelligence and Restore Access
 
 - **Restore access:** Once infected devices are remediated, MDE signals Intune to update the device risk status, and Conditional Access restores access to enterprise resources.
-- **Remediate threat variants elsewhere:** Threat signals in Microsoft Threat Intelligence are used by other Microsoft tools — MDO and Microsoft Defender for Cloud use these signals to detect and remediate threats across email, Office collaboration, Azure, and more.
+- **Remediate threat variants elsewhere:** Threat signals in Microsoft Threat Intelligence are used by other Microsoft tools - MDO and Microsoft Defender for Cloud use these signals to detect and remediate threats across email, Office collaboration, Azure, and more.
 
 #### Access Restricted
 
@@ -67,7 +67,7 @@ Overview of how Microsoft Defender XDR and Microsoft Sentinel integrate within a
 Security operations are composed of several distinct functions. In larger organizations these are separate teams; in smaller ones, they're often combined into a single role/team (e.g., handled by IT Operations, or temporarily by leadership for incident management).
 
 > **Note**
-> Analysts are referred to by team name, not "Tier" numbers — each team has unique specialized skills; the tiers aren't a literal hierarchy of value.
+> Analysts are referred to by team name, not "Tier" numbers, each team has unique specialized skills; the tiers aren't a literal hierarchy of value.
 
 #### Triage and Automation
 
