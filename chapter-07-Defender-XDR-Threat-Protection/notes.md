@@ -27,6 +27,8 @@ Microsoft Defender XDR is an integrated threat protection suite with solutions t
 
 **Scenario:** Microsoft Defender for Endpoint (MDE) detects a malicious payload — regardless of where it came from (personal email, USB drive, etc.).
 
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/5d18136f-74f4-4f8f-bdba-17e5ef88f85b" />
+
 1. The victim receives a malicious email on a personal account *not* protected by Microsoft Defender for Office 365 (MDO), or plugs in an infected USB drive, and opens the attachment.
 2. The malware infects the computer — the user is unaware an attack occurred.
 3. **MDE detects the attack**, raises an alert to security operations, and provides threat details to the security team.
@@ -42,6 +44,8 @@ Microsoft Defender XDR is an integrated threat protection suite with solutions t
 
 - **Restore access:** Once infected devices are remediated, MDE signals Intune to update the device risk status, and Conditional Access restores access to enterprise resources.
 - **Remediate threat variants elsewhere:** Threat signals in Microsoft Threat Intelligence are used by other Microsoft tools — MDO and Microsoft Defender for Cloud use these signals to detect and remediate threats across email, Office collaboration, Azure, and more.
+
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/3dc9c308-0a53-44f3-a0ab-cb808a870e0b" />
 
 #### Access Restricted
 
