@@ -8,6 +8,8 @@
 
 Microsoft Defender XDR is an integrated threat protection suite with solutions that detect malicious activity across **email, endpoints, applications, and identity**. Together, these solutions provide a complete attack-chain compromise story, giving a full understanding of the threat and enabling remediation and protection against future attacks.
 
+https://learn.microsoft.com/en-us/training/wwl-sci/introduction-microsoft-365-threat-protection/media/defend-attack-chains.png
+
 **Scenario:** You're a Security Operations Analyst at a company implementing Microsoft Defender XDR solutions. You need to understand how Extended Detection and Response (XDR) combines signals from:
 
 - Endpoints
