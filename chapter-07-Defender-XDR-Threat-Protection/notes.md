@@ -68,12 +68,17 @@ Once the threat is remediated and cleaned up:
 
 Overview of how Microsoft Defender XDR and Microsoft Sentinel integrate within a modern Security Operations Center (SOC).
 
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/fdbdb39c-351f-4b3b-ab98-f739b718d7a3" />
+
 ### Security Operations Model — Functions and Tools
 
 Security operations are composed of several distinct functions. In larger organizations these are separate teams; in smaller ones, they're often combined into a single role/team (e.g., handled by IT Operations, or temporarily by leadership for incident management).
 
 > **Note**
 > Analysts are referred to by team name, not "Tier" numbers — each team has unique specialized skills; the tiers aren't a literal hierarchy of value.
+
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/d444064e-7076-4f65-aa78-f9c404b14004" />
+
 
 #### Triage and Automation
 
