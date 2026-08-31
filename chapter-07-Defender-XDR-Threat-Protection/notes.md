@@ -148,6 +148,9 @@ The Microsoft Graph API offers a single endpoint, `https://graph.microsoft.com` 
 
 An intermediary service (broker) providing a single programmatic interface to connect multiple Microsoft Graph **security providers**. Requests are federated to all applicable providers, and results are aggregated and returned in a common schema.
 
+<img width="614" height="720" alt="image" src="https://github.com/user-attachments/assets/537bee9d-1b25-4439-be99-123cd4833bd4" />
+
+
 Developers can use it to build intelligent security services that:
 
 - Integrate and correlate security alerts from multiple sources
@@ -178,7 +181,7 @@ POST https://graph.microsoft.com/v1.0/security/runHuntingQuery
 
 You can use [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer) to run hunting queries interactively.
 
----
+<img width="2738" height="1487" alt="image" src="https://github.com/user-attachments/assets/121e9bdb-935b-48e3-843b-a7b72ea484f5" />
 
 ## Investigate Security Incidents in Microsoft Defender XDR
 
