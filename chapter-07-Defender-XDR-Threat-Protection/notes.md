@@ -8,6 +8,8 @@
 
 Microsoft Defender XDR is an integrated threat protection suite with solutions that detect malicious activity across **email, endpoints, applications, and identity**. Together, these solutions provide a complete attack-chain compromise story, giving a full understanding of the threat and enabling remediation and protection against future attacks.
 
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/a7128ab0-7aee-4bfa-9cd4-a753db964563" />
+
 **Scenario:** You're a Security Operations Analyst at a company implementing Microsoft Defender XDR solutions. You need to understand how Extended Detection and Response (XDR) combines signals from:
 
 - Endpoints
@@ -25,6 +27,8 @@ Microsoft Defender XDR is an integrated threat protection suite with solutions t
 
 **Scenario:** Microsoft Defender for Endpoint (MDE) detects a malicious payload regardless of where it came from (personal email, USB drive, etc.).
 
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/5d18136f-74f4-4f8f-bdba-17e5ef88f85b" />
+
 1. The victim receives a malicious email on a personal account *not* protected by Microsoft Defender for Office 365 (MDO), or plugs in an infected USB drive, and opens the attachment.
 2. The malware infects the computer — the user is unaware an attack occurred.
 3. **MDE detects the attack**, raises an alert to security operations, and provides threat details to the security team.
@@ -40,6 +44,8 @@ Microsoft Defender XDR is an integrated threat protection suite with solutions t
 
 - **Restore access:** Once infected devices are remediated, MDE signals Intune to update the device risk status, and Conditional Access restores access to enterprise resources.
 - **Remediate threat variants elsewhere:** Threat signals in Microsoft Threat Intelligence are used by other Microsoft tools - MDO and Microsoft Defender for Cloud use these signals to detect and remediate threats across email, Office collaboration, Azure, and more.
+
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/3dc9c308-0a53-44f3-a0ab-cb808a870e0b" />
 
 #### Access Restricted
 
@@ -62,12 +68,17 @@ Once the threat is remediated and cleaned up:
 
 Overview of how Microsoft Defender XDR and Microsoft Sentinel integrate within a modern Security Operations Center (SOC).
 
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/fdbdb39c-351f-4b3b-ab98-f739b718d7a3" />
+
 ### Security Operations Model — Functions and Tools
 
 Security operations are composed of several distinct functions. In larger organizations these are separate teams; in smaller ones, they're often combined into a single role/team (e.g., handled by IT Operations, or temporarily by leadership for incident management).
 
 > **Note**
 > Analysts are referred to by team name, not "Tier" numbers, each team has unique specialized skills; the tiers aren't a literal hierarchy of value.
+
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/d444064e-7076-4f65-aa78-f9c404b14004" />
+
 
 #### Triage and Automation
 
@@ -137,6 +148,9 @@ The Microsoft Graph API offers a single endpoint, `https://graph.microsoft.com` 
 
 An intermediary service (broker) providing a single programmatic interface to connect multiple Microsoft Graph **security providers**. Requests are federated to all applicable providers, and results are aggregated and returned in a common schema.
 
+<img width="614" height="720" alt="image" src="https://github.com/user-attachments/assets/537bee9d-1b25-4439-be99-123cd4833bd4" />
+
+
 Developers can use it to build intelligent security services that:
 
 - Integrate and correlate security alerts from multiple sources
@@ -167,7 +181,7 @@ POST https://graph.microsoft.com/v1.0/security/runHuntingQuery
 
 You can use [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer) to run hunting queries interactively.
 
----
+<img width="2738" height="1487" alt="image" src="https://github.com/user-attachments/assets/121e9bdb-935b-48e3-843b-a7b72ea484f5" />
 
 ## Investigate Security Incidents in Microsoft Defender XDR
 
